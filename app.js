@@ -11,8 +11,8 @@ const scissor_div = document.getElementById('s');
 
 function getComputerChoice() {
     const choices = ['r', 'p', 's'];
-    const randomNumber = Math.floor(Math.random() * 3);
-    return choices[randomNumber];
+    const randomNumbe = Math.floor(Math.random() * 3);
+    return choices[randomNumbe];
 }
 
 function convertToWord(letter) {
